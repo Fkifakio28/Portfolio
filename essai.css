@@ -5,10 +5,10 @@ body{
     overflow: hidden;
 }
 header{
-   /* display: flex;
+    display: flex;
     justify-content: space-between;
     padding-top: 1.5%;
-    padding-left: 5%;*/
+    padding-left: 5%;
 }
 .kif{
     border-radius: 50%;
