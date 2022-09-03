@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  z-index: 50;
+}
+.carousel {
+  z-index: 0;
+}
+
+.board {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  float: right;
+  background-color: black;
+  opacity: 70%;
+}
+
+.buttons,
+.carousel-indicators {
+  z-index: 10;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#about {
+  background-color: violet;
+  border-radius: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  position: relative;
+}
+#about span {
+  position: relative;
+}
+
+.carousel-caption{
+    z-index: 20;
+    right: -35%;
+    top: 70%;
+}
+
+.carousel-indicators{
+    z-index: 20;
+    right: -35%;
+    top: 80%;
+    padding-right: 115px;
+}
+
+.title{
+    padding-right: 320px;
+}
